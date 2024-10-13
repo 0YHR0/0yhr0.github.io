@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Ch09 Open Source Components | Blog of YHR</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/head.ico">
+    <meta name="description" content="Blog of YHR">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/assets/css/0.styles.7e0aff35.css" as="style"><link rel="preload" href="/assets/js/app.69afa0c6.js" as="script"><link rel="preload" href="/assets/js/3.5fe2d7cb.js" as="script"><link rel="preload" href="/assets/js/1.571bc783.js" as="script"><link rel="preload" href="/assets/js/137.d1e22229.js" as="script"><link rel="prefetch" href="/assets/js/10.8700fd08.js"><link rel="prefetch" href="/assets/js/100.589460cd.js"><link rel="prefetch" href="/assets/js/101.181d2215.js"><link rel="prefetch" href="/assets/js/102.15a056f7.js"><link rel="prefetch" href="/assets/js/103.68b5b58c.js"><link rel="prefetch" href="/assets/js/104.f3484d36.js"><link rel="prefetch" href="/assets/js/105.c3266deb.js"><link rel="prefetch" href="/assets/js/106.65bad70b.js"><link rel="prefetch" href="/assets/js/107.6bd4110b.js"><link rel="prefetch" href="/assets/js/108.ed650d05.js"><link rel="prefetch" href="/assets/js/109.d5ef1a12.js"><link rel="prefetch" href="/assets/js/11.3ba1d604.js"><link rel="prefetch" href="/assets/js/110.320af159.js"><link rel="prefetch" href="/assets/js/111.745931d6.js"><link rel="prefetch" href="/assets/js/112.aca7c751.js"><link rel="prefetch" href="/assets/js/113.bb18cf06.js"><link rel="prefetch" href="/assets/js/114.a9eac271.js"><link rel="prefetch" href="/assets/js/115.7cdac123.js"><link rel="prefetch" href="/assets/js/116.6b248114.js"><link rel="prefetch" href="/assets/js/117.e94be513.js"><link rel="prefetch" href="/assets/js/118.8157af87.js"><link rel="prefetch" href="/assets/js/119.04b2c946.js"><link rel="prefetch" href="/assets/js/12.af598d62.js"><link rel="prefetch" href="/assets/js/120.d3e25949.js"><link rel="prefetch" href="/assets/js/121.d7477d66.js"><link rel="prefetch" href="/assets/js/122.a4cbc43f.js"><link rel="prefetch" href="/assets/js/123.a0b26f3a.js"><link rel="prefetch" href="/assets/js/124.161a4c8b.js"><link rel="prefetch" href="/assets/js/125.e7fcfb65.js"><link rel="prefetch" href="/assets/js/126.0599407b.js"><link rel="prefetch" href="/assets/js/127.b71de461.js"><link rel="prefetch" href="/assets/js/128.985d4fd2.js"><link rel="prefetch" href="/assets/js/129.6d74d015.js"><link rel="prefetch" href="/assets/js/13.044b70fb.js"><link rel="prefetch" href="/assets/js/130.5378eea2.js"><link rel="prefetch" href="/assets/js/131.ed59e042.js"><link rel="prefetch" href="/assets/js/132.60c11efd.js"><link rel="prefetch" href="/assets/js/133.a761476c.js"><link rel="prefetch" href="/assets/js/134.97a31b4f.js"><link rel="prefetch" href="/assets/js/135.5b78b737.js"><link rel="prefetch" href="/assets/js/136.98b60b8c.js"><link rel="prefetch" href="/assets/js/138.9af3dfe6.js"><link rel="prefetch" href="/assets/js/139.bf89538c.js"><link rel="prefetch" href="/assets/js/14.1ccc67ee.js"><link rel="prefetch" href="/assets/js/140.ae293b0d.js"><link rel="prefetch" href="/assets/js/141.c3cb81e2.js"><link rel="prefetch" href="/assets/js/142.a27ab6f1.js"><link rel="prefetch" href="/assets/js/143.e6b51f61.js"><link rel="prefetch" href="/assets/js/144.c077dc71.js"><link rel="prefetch" href="/assets/js/145.754b3f60.js"><link rel="prefetch" href="/assets/js/146.73a3c81b.js"><link rel="prefetch" href="/assets/js/147.0fe17400.js"><link rel="prefetch" href="/assets/js/148.5b478f1f.js"><link rel="prefetch" href="/assets/js/149.9cc9668f.js"><link rel="prefetch" href="/assets/js/15.dfede46b.js"><link rel="prefetch" href="/assets/js/150.61fcd173.js"><link rel="prefetch" href="/assets/js/151.8ce96667.js"><link rel="prefetch" href="/assets/js/152.de4e9da0.js"><link rel="prefetch" href="/assets/js/153.bb87c506.js"><link rel="prefetch" href="/assets/js/154.e97caf4f.js"><link rel="prefetch" href="/assets/js/155.2880fae1.js"><link rel="prefetch" href="/assets/js/156.60ea50f5.js"><link rel="prefetch" href="/assets/js/157.c5aee9ff.js"><link rel="prefetch" href="/assets/js/158.32f9a1a9.js"><link rel="prefetch" href="/assets/js/159.e80765d1.js"><link rel="prefetch" href="/assets/js/16.2ae65698.js"><link rel="prefetch" href="/assets/js/160.b4c2c937.js"><link rel="prefetch" href="/assets/js/161.229557ea.js"><link rel="prefetch" href="/assets/js/162.fd0ecd36.js"><link rel="prefetch" href="/assets/js/163.58d98f16.js"><link rel="prefetch" href="/assets/js/164.1b8ce348.js"><link rel="prefetch" href="/assets/js/165.a4afb67c.js"><link rel="prefetch" href="/assets/js/166.7d0a59fa.js"><link rel="prefetch" href="/assets/js/167.c42f8115.js"><link rel="prefetch" href="/assets/js/168.b2a6c641.js"><link rel="prefetch" href="/assets/js/169.3c158eeb.js"><link rel="prefetch" href="/assets/js/17.9cd1870e.js"><link rel="prefetch" href="/assets/js/170.5343370f.js"><link rel="prefetch" href="/assets/js/171.ca8fe056.js"><link rel="prefetch" href="/assets/js/172.c158444e.js"><link rel="prefetch" href="/assets/js/173.03be757c.js"><link rel="prefetch" href="/assets/js/174.d0e66f59.js"><link rel="prefetch" href="/assets/js/175.ba9de397.js"><link rel="prefetch" href="/assets/js/176.d2485e0d.js"><link rel="prefetch" href="/assets/js/177.e3a628d3.js"><link rel="prefetch" href="/assets/js/178.2508a214.js"><link rel="prefetch" href="/assets/js/179.535c9a39.js"><link rel="prefetch" href="/assets/js/18.c2b5163f.js"><link rel="prefetch" href="/assets/js/180.c71c7ffb.js"><link rel="prefetch" href="/assets/js/181.2de269e4.js"><link rel="prefetch" href="/assets/js/182.f94fd899.js"><link rel="prefetch" href="/assets/js/183.b5972a9a.js"><link rel="prefetch" href="/assets/js/184.8a54e43e.js"><link rel="prefetch" href="/assets/js/185.799a7142.js"><link rel="prefetch" href="/assets/js/186.d72fa6a1.js"><link rel="prefetch" href="/assets/js/187.20168c7e.js"><link rel="prefetch" href="/assets/js/188.49bc6470.js"><link rel="prefetch" href="/assets/js/189.9462ddb4.js"><link rel="prefetch" href="/assets/js/19.d901ee7c.js"><link rel="prefetch" href="/assets/js/190.fe58fe1d.js"><link rel="prefetch" href="/assets/js/191.8913d6db.js"><link rel="prefetch" href="/assets/js/192.787e0871.js"><link rel="prefetch" href="/assets/js/193.3cf7d73b.js"><link rel="prefetch" href="/assets/js/194.ee2019b5.js"><link rel="prefetch" href="/assets/js/195.b23a686d.js"><link rel="prefetch" href="/assets/js/196.11a813cf.js"><link rel="prefetch" href="/assets/js/197.709c2586.js"><link rel="prefetch" href="/assets/js/198.76457bff.js"><link rel="prefetch" href="/assets/js/199.ee882c9d.js"><link rel="prefetch" href="/assets/js/20.611fe6d3.js"><link rel="prefetch" href="/assets/js/200.e57feb27.js"><link rel="prefetch" href="/assets/js/201.977e78c8.js"><link rel="prefetch" href="/assets/js/202.f7bb029a.js"><link rel="prefetch" href="/assets/js/203.7163dcc1.js"><link rel="prefetch" href="/assets/js/204.7a87cbaf.js"><link rel="prefetch" href="/assets/js/205.fdba219a.js"><link rel="prefetch" href="/assets/js/206.f15ca3da.js"><link rel="prefetch" href="/assets/js/207.5ca8889a.js"><link rel="prefetch" href="/assets/js/208.1f773ef1.js"><link rel="prefetch" href="/assets/js/209.cf9e359c.js"><link rel="prefetch" href="/assets/js/21.15b1c5ae.js"><link rel="prefetch" href="/assets/js/210.daa16c34.js"><link rel="prefetch" href="/assets/js/211.444f53d7.js"><link rel="prefetch" href="/assets/js/212.822d5a8e.js"><link rel="prefetch" href="/assets/js/213.b73c45a6.js"><link rel="prefetch" href="/assets/js/214.85412e25.js"><link rel="prefetch" href="/assets/js/215.38543524.js"><link rel="prefetch" href="/assets/js/216.eceb4493.js"><link rel="prefetch" href="/assets/js/217.6568fd0a.js"><link rel="prefetch" href="/assets/js/218.66777150.js"><link rel="prefetch" href="/assets/js/219.f396592a.js"><link rel="prefetch" href="/assets/js/22.dd13e052.js"><link rel="prefetch" href="/assets/js/220.b51ced16.js"><link rel="prefetch" href="/assets/js/221.81b35481.js"><link rel="prefetch" href="/assets/js/222.e6d10562.js"><link rel="prefetch" href="/assets/js/223.a763bb29.js"><link rel="prefetch" href="/assets/js/224.67afcf9c.js"><link rel="prefetch" href="/assets/js/225.8fc4f2e6.js"><link rel="prefetch" href="/assets/js/226.ea3115bd.js"><link rel="prefetch" href="/assets/js/227.38550dbb.js"><link rel="prefetch" href="/assets/js/228.cacacc80.js"><link rel="prefetch" href="/assets/js/229.4d52f62a.js"><link rel="prefetch" href="/assets/js/23.1f8240a9.js"><link rel="prefetch" href="/assets/js/230.f12fc40b.js"><link rel="prefetch" href="/assets/js/231.494852e0.js"><link rel="prefetch" href="/assets/js/232.e8c96b7d.js"><link rel="prefetch" href="/assets/js/233.b5fe80ee.js"><link rel="prefetch" href="/assets/js/234.0710800c.js"><link rel="prefetch" href="/assets/js/235.76a2fd6d.js"><link rel="prefetch" href="/assets/js/236.a6681744.js"><link rel="prefetch" href="/assets/js/237.e2be2568.js"><link rel="prefetch" href="/assets/js/238.0bcc5779.js"><link rel="prefetch" href="/assets/js/239.d065a5cc.js"><link rel="prefetch" href="/assets/js/24.9c6bfa42.js"><link rel="prefetch" href="/assets/js/240.ab9bf51f.js"><link rel="prefetch" href="/assets/js/241.e879276d.js"><link rel="prefetch" href="/assets/js/242.0c86b5d2.js"><link rel="prefetch" href="/assets/js/243.c2977384.js"><link rel="prefetch" href="/assets/js/244.fcf34669.js"><link rel="prefetch" href="/assets/js/245.e856f406.js"><link rel="prefetch" href="/assets/js/246.5ea13c5f.js"><link rel="prefetch" href="/assets/js/247.3452ffd7.js"><link rel="prefetch" href="/assets/js/248.2b241a56.js"><link rel="prefetch" href="/assets/js/249.55e5b87b.js"><link rel="prefetch" href="/assets/js/25.fae97f02.js"><link rel="prefetch" href="/assets/js/250.63c04b6c.js"><link rel="prefetch" href="/assets/js/251.44c40459.js"><link rel="prefetch" href="/assets/js/252.4a3bd38d.js"><link rel="prefetch" href="/assets/js/253.a7ca31c0.js"><link rel="prefetch" href="/assets/js/254.244dee77.js"><link rel="prefetch" href="/assets/js/255.b9b46bad.js"><link rel="prefetch" href="/assets/js/256.15db409e.js"><link rel="prefetch" href="/assets/js/257.a87b6f4b.js"><link rel="prefetch" href="/assets/js/258.44ff920a.js"><link rel="prefetch" href="/assets/js/259.dfcfe270.js"><link rel="prefetch" href="/assets/js/26.3fbbba13.js"><link rel="prefetch" href="/assets/js/260.e692b041.js"><link rel="prefetch" href="/assets/js/261.6ce8a190.js"><link rel="prefetch" href="/assets/js/262.8e301e2f.js"><link rel="prefetch" href="/assets/js/263.b4d3c6ce.js"><link rel="prefetch" href="/assets/js/264.db52faba.js"><link rel="prefetch" href="/assets/js/265.b699bcf4.js"><link rel="prefetch" href="/assets/js/266.1f545dfa.js"><link rel="prefetch" href="/assets/js/267.821c72bf.js"><link rel="prefetch" href="/assets/js/268.3609c149.js"><link rel="prefetch" href="/assets/js/269.fd916fb9.js"><link rel="prefetch" href="/assets/js/27.670695f8.js"><link rel="prefetch" href="/assets/js/270.dc16a1a2.js"><link rel="prefetch" href="/assets/js/271.fa53851f.js"><link rel="prefetch" href="/assets/js/272.c22b5491.js"><link rel="prefetch" href="/assets/js/273.28487c43.js"><link rel="prefetch" href="/assets/js/274.9b2228ee.js"><link rel="prefetch" href="/assets/js/275.6ea7dc9d.js"><link rel="prefetch" href="/assets/js/276.948ab461.js"><link rel="prefetch" href="/assets/js/277.59deaeb8.js"><link rel="prefetch" href="/assets/js/278.b8b9892f.js"><link rel="prefetch" href="/assets/js/279.6ce418c1.js"><link rel="prefetch" href="/assets/js/28.6325346b.js"><link rel="prefetch" href="/assets/js/280.b2781b52.js"><link rel="prefetch" href="/assets/js/281.3474b13e.js"><link rel="prefetch" href="/assets/js/282.c6f38131.js"><link rel="prefetch" href="/assets/js/283.d377f16d.js"><link rel="prefetch" href="/assets/js/284.96df32a3.js"><link rel="prefetch" href="/assets/js/285.484fd5cc.js"><link rel="prefetch" href="/assets/js/286.2e0b9522.js"><link rel="prefetch" href="/assets/js/287.b9e5a444.js"><link rel="prefetch" href="/assets/js/288.4f70d3be.js"><link rel="prefetch" href="/assets/js/289.d4ec0ad6.js"><link rel="prefetch" href="/assets/js/29.c6f1d899.js"><link rel="prefetch" href="/assets/js/290.9ac92feb.js"><link rel="prefetch" href="/assets/js/291.f905396c.js"><link rel="prefetch" href="/assets/js/292.04e5b679.js"><link rel="prefetch" href="/assets/js/293.4d745333.js"><link rel="prefetch" href="/assets/js/294.eede5c00.js"><link rel="prefetch" href="/assets/js/295.20c30bd2.js"><link rel="prefetch" href="/assets/js/296.a6a7397b.js"><link rel="prefetch" href="/assets/js/297.e5e0cff5.js"><link rel="prefetch" href="/assets/js/298.04ba757c.js"><link rel="prefetch" href="/assets/js/299.5eb8fd47.js"><link rel="prefetch" href="/assets/js/30.f1a7fb00.js"><link rel="prefetch" href="/assets/js/300.60b8f346.js"><link rel="prefetch" href="/assets/js/301.76bcfbb2.js"><link rel="prefetch" href="/assets/js/302.b4ae9601.js"><link rel="prefetch" href="/assets/js/303.bde121ed.js"><link rel="prefetch" href="/assets/js/304.824bd9d2.js"><link rel="prefetch" href="/assets/js/305.defed118.js"><link rel="prefetch" href="/assets/js/306.5ba33199.js"><link rel="prefetch" href="/assets/js/307.fab23459.js"><link rel="prefetch" href="/assets/js/308.7894ee7d.js"><link rel="prefetch" href="/assets/js/309.f7b1d724.js"><link rel="prefetch" href="/assets/js/31.02d7e93e.js"><link rel="prefetch" href="/assets/js/310.f26d27c1.js"><link rel="prefetch" href="/assets/js/311.aa92eee1.js"><link rel="prefetch" href="/assets/js/312.d788d502.js"><link rel="prefetch" href="/assets/js/313.965b0efb.js"><link rel="prefetch" href="/assets/js/314.02004434.js"><link rel="prefetch" href="/assets/js/315.e4f86b06.js"><link rel="prefetch" href="/assets/js/316.1a5e6a80.js"><link rel="prefetch" href="/assets/js/317.162762a5.js"><link rel="prefetch" href="/assets/js/318.4b642d50.js"><link rel="prefetch" href="/assets/js/319.b1c1e7cd.js"><link rel="prefetch" href="/assets/js/32.f514f36e.js"><link rel="prefetch" href="/assets/js/320.e5553d4d.js"><link rel="prefetch" href="/assets/js/321.b8dae2f5.js"><link rel="prefetch" href="/assets/js/322.46984e8b.js"><link rel="prefetch" href="/assets/js/323.1df30063.js"><link rel="prefetch" href="/assets/js/324.0225ac65.js"><link rel="prefetch" href="/assets/js/325.51a3a1cd.js"><link rel="prefetch" href="/assets/js/326.7bbf3a12.js"><link rel="prefetch" href="/assets/js/327.55773010.js"><link rel="prefetch" href="/assets/js/328.5312db48.js"><link rel="prefetch" href="/assets/js/329.7fe8a5a1.js"><link rel="prefetch" href="/assets/js/33.3b1e5029.js"><link rel="prefetch" href="/assets/js/330.428b142c.js"><link rel="prefetch" href="/assets/js/331.d85de040.js"><link rel="prefetch" href="/assets/js/332.877f4e4b.js"><link rel="prefetch" href="/assets/js/333.643c71c6.js"><link rel="prefetch" href="/assets/js/334.8f9ce82b.js"><link rel="prefetch" href="/assets/js/335.d504e07e.js"><link rel="prefetch" href="/assets/js/336.1fe2b90f.js"><link rel="prefetch" href="/assets/js/337.d68939fa.js"><link rel="prefetch" href="/assets/js/338.ac707b44.js"><link rel="prefetch" href="/assets/js/339.de730371.js"><link rel="prefetch" href="/assets/js/34.85b3c594.js"><link rel="prefetch" href="/assets/js/340.40c218ff.js"><link rel="prefetch" href="/assets/js/341.a0d7b5bf.js"><link rel="prefetch" href="/assets/js/342.783799dd.js"><link rel="prefetch" href="/assets/js/343.8c92ae43.js"><link rel="prefetch" href="/assets/js/344.9d1ad7a6.js"><link rel="prefetch" href="/assets/js/345.d0c01344.js"><link rel="prefetch" href="/assets/js/346.e0cad975.js"><link rel="prefetch" href="/assets/js/347.ef80dab9.js"><link rel="prefetch" href="/assets/js/348.0e2a9018.js"><link rel="prefetch" href="/assets/js/349.265678f9.js"><link rel="prefetch" href="/assets/js/35.7e2ad7ce.js"><link rel="prefetch" href="/assets/js/350.1ddd7a8f.js"><link rel="prefetch" href="/assets/js/351.47d00bb0.js"><link rel="prefetch" href="/assets/js/352.af2123d3.js"><link rel="prefetch" href="/assets/js/353.3363decd.js"><link rel="prefetch" href="/assets/js/354.f267c1ea.js"><link rel="prefetch" href="/assets/js/355.4435efcc.js"><link rel="prefetch" href="/assets/js/356.fa8cccbf.js"><link rel="prefetch" href="/assets/js/357.0ae0fe67.js"><link rel="prefetch" href="/assets/js/358.973cd8ba.js"><link rel="prefetch" href="/assets/js/359.230c06d6.js"><link rel="prefetch" href="/assets/js/36.6acdbec2.js"><link rel="prefetch" href="/assets/js/360.3ac8a618.js"><link rel="prefetch" href="/assets/js/361.d48fbbed.js"><link rel="prefetch" href="/assets/js/362.55b48935.js"><link rel="prefetch" href="/assets/js/363.fd5d5ea1.js"><link rel="prefetch" href="/assets/js/364.b7aedc93.js"><link rel="prefetch" href="/assets/js/365.30a12df4.js"><link rel="prefetch" href="/assets/js/366.210172ed.js"><link rel="prefetch" href="/assets/js/367.69492b47.js"><link rel="prefetch" href="/assets/js/368.b4bfff93.js"><link rel="prefetch" href="/assets/js/369.2096a355.js"><link rel="prefetch" href="/assets/js/37.6c9f3185.js"><link rel="prefetch" href="/assets/js/370.9c617d3d.js"><link rel="prefetch" href="/assets/js/371.b939830c.js"><link rel="prefetch" href="/assets/js/372.edf85b8f.js"><link rel="prefetch" href="/assets/js/373.a65f70d4.js"><link rel="prefetch" href="/assets/js/374.8034b79c.js"><link rel="prefetch" href="/assets/js/375.b279842a.js"><link rel="prefetch" href="/assets/js/376.09acbc90.js"><link rel="prefetch" href="/assets/js/377.f6ad352d.js"><link rel="prefetch" href="/assets/js/378.fb6e13a3.js"><link rel="prefetch" href="/assets/js/379.91f7741d.js"><link rel="prefetch" href="/assets/js/38.f41410ae.js"><link rel="prefetch" href="/assets/js/380.94ba5ea7.js"><link rel="prefetch" href="/assets/js/381.a1df84bb.js"><link rel="prefetch" href="/assets/js/382.08bac78b.js"><link rel="prefetch" href="/assets/js/383.62f688b5.js"><link rel="prefetch" href="/assets/js/384.19b8ad6e.js"><link rel="prefetch" href="/assets/js/385.6abdda84.js"><link rel="prefetch" href="/assets/js/386.031fd17f.js"><link rel="prefetch" href="/assets/js/387.33de1ed9.js"><link rel="prefetch" href="/assets/js/388.5ab57df5.js"><link rel="prefetch" href="/assets/js/389.d8e7be9a.js"><link rel="prefetch" href="/assets/js/39.d546e762.js"><link rel="prefetch" href="/assets/js/390.68b0e344.js"><link rel="prefetch" href="/assets/js/391.18244e3d.js"><link rel="prefetch" href="/assets/js/392.ad7b3a20.js"><link rel="prefetch" href="/assets/js/393.e42c6b09.js"><link rel="prefetch" href="/assets/js/394.9ead7c95.js"><link rel="prefetch" href="/assets/js/395.5c64123d.js"><link rel="prefetch" href="/assets/js/396.36933d61.js"><link rel="prefetch" href="/assets/js/397.e68e1bce.js"><link rel="prefetch" href="/assets/js/398.3efbac97.js"><link rel="prefetch" href="/assets/js/399.4256b358.js"><link rel="prefetch" href="/assets/js/4.d82b85a8.js"><link rel="prefetch" href="/assets/js/40.3f1c863b.js"><link rel="prefetch" href="/assets/js/41.65902188.js"><link rel="prefetch" href="/assets/js/42.c2bfe85b.js"><link rel="prefetch" href="/assets/js/43.9df8de94.js"><link rel="prefetch" href="/assets/js/44.d0cd77ff.js"><link rel="prefetch" href="/assets/js/45.8422bc56.js"><link rel="prefetch" href="/assets/js/46.99b0055b.js"><link rel="prefetch" href="/assets/js/47.c175201e.js"><link rel="prefetch" href="/assets/js/48.6e2c051d.js"><link rel="prefetch" href="/assets/js/49.34d3d50c.js"><link rel="prefetch" href="/assets/js/5.1bfe4518.js"><link rel="prefetch" href="/assets/js/50.5848c685.js"><link rel="prefetch" href="/assets/js/51.3755e2da.js"><link rel="prefetch" href="/assets/js/52.9b1bcba2.js"><link rel="prefetch" href="/assets/js/53.7c1ccac6.js"><link rel="prefetch" href="/assets/js/54.7e4ce6a1.js"><link rel="prefetch" href="/assets/js/55.b2e8d010.js"><link rel="prefetch" href="/assets/js/56.144d390b.js"><link rel="prefetch" href="/assets/js/57.632fc429.js"><link rel="prefetch" href="/assets/js/58.edc687d3.js"><link rel="prefetch" href="/assets/js/59.0372b3f9.js"><link rel="prefetch" href="/assets/js/6.701e992c.js"><link rel="prefetch" href="/assets/js/60.a3a91188.js"><link rel="prefetch" href="/assets/js/61.a129d232.js"><link rel="prefetch" href="/assets/js/62.84b47f06.js"><link rel="prefetch" href="/assets/js/63.2c1287b8.js"><link rel="prefetch" href="/assets/js/64.36d5d1bb.js"><link rel="prefetch" href="/assets/js/65.93e5261b.js"><link rel="prefetch" href="/assets/js/66.29e4e574.js"><link rel="prefetch" href="/assets/js/67.34cb523a.js"><link rel="prefetch" href="/assets/js/68.da1a8e45.js"><link rel="prefetch" href="/assets/js/69.01731f4b.js"><link rel="prefetch" href="/assets/js/7.f086b79a.js"><link rel="prefetch" href="/assets/js/70.9397e7d9.js"><link rel="prefetch" href="/assets/js/71.4ef597fd.js"><link rel="prefetch" href="/assets/js/72.39ef4f67.js"><link rel="prefetch" href="/assets/js/73.8664cdd1.js"><link rel="prefetch" href="/assets/js/74.fc0a6be3.js"><link rel="prefetch" href="/assets/js/75.2f86be2e.js"><link rel="prefetch" href="/assets/js/76.67d30446.js"><link rel="prefetch" href="/assets/js/77.3f05de0a.js"><link rel="prefetch" href="/assets/js/78.68ce2655.js"><link rel="prefetch" href="/assets/js/79.a736a84a.js"><link rel="prefetch" href="/assets/js/8.bd90a9cf.js"><link rel="prefetch" href="/assets/js/80.f0f28d30.js"><link rel="prefetch" href="/assets/js/81.09a029b6.js"><link rel="prefetch" href="/assets/js/82.5df2fd6d.js"><link rel="prefetch" href="/assets/js/83.f8191cf9.js"><link rel="prefetch" href="/assets/js/84.fed1a13d.js"><link rel="prefetch" href="/assets/js/85.aa1dae38.js"><link rel="prefetch" href="/assets/js/86.cc0dc32e.js"><link rel="prefetch" href="/assets/js/87.f72dae19.js"><link rel="prefetch" href="/assets/js/88.c55bc460.js"><link rel="prefetch" href="/assets/js/89.e657aea3.js"><link rel="prefetch" href="/assets/js/9.13ede500.js"><link rel="prefetch" href="/assets/js/90.109f1ea3.js"><link rel="prefetch" href="/assets/js/91.2ddd383e.js"><link rel="prefetch" href="/assets/js/92.c5d152f5.js"><link rel="prefetch" href="/assets/js/93.c46e7b57.js"><link rel="prefetch" href="/assets/js/94.02456fe8.js"><link rel="prefetch" href="/assets/js/95.a6747ae6.js"><link rel="prefetch" href="/assets/js/96.717a20b7.js"><link rel="prefetch" href="/assets/js/97.af8dcd5b.js"><link rel="prefetch" href="/assets/js/98.65afd33c.js"><link rel="prefetch" href="/assets/js/99.e7d5617f.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.7e0aff35.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar" data-v-5bb33761><div data-v-5bb33761><div class="password-shadow password-wrapper-out" style="display:none;" data-v-59e6cb88 data-v-5bb33761 data-v-5bb33761><h3 class="title" data-v-59e6cb88>Blog of YHR</h3> <p class="description" data-v-59e6cb88>Blog of YHR</p> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>Yang Haoran</span>
+          
+        <span data-v-59e6cb88>2019 - </span>
+        2024
+      </a></span></div></div> <div class="hide" data-v-5bb33761><header class="navbar" data-v-5bb33761><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/head.jpg" alt="Blog of YHR" class="logo"> <span class="site-name">Blog of YHR</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      Category
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/AIGC/" class="nav-link"><i class="undefined"></i>
+  AIGC
+</a></li><li class="dropdown-item"><!----> <a href="/categories/AIDistributedTraining/" class="nav-link"><i class="undefined"></i>
+  AIDistributedTraining
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Distributed Lock/" class="nav-link"><i class="undefined"></i>
+  Distributed Lock
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Distributed Transaction/" class="nav-link"><i class="undefined"></i>
+  Distributed Transaction
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Algorithm/" class="nav-link"><i class="undefined"></i>
+  Algorithm
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Android/" class="nav-link"><i class="undefined"></i>
+  Android
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Architecture/" class="nav-link"><i class="undefined"></i>
+  Architecture
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Cloud/" class="nav-link"><i class="undefined"></i>
+  Cloud
+</a></li><li class="dropdown-item"><!----> <a href="/categories/DevOps/" class="nav-link"><i class="undefined"></i>
+  DevOps
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Computer_network/" class="nav-link"><i class="undefined"></i>
+  Computer_network
+</a></li><li class="dropdown-item"><!----> <a href="/categories/VHDL/" class="nav-link"><i class="undefined"></i>
+  VHDL
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Data structure/" class="nav-link"><i class="undefined"></i>
+  Data structure
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Data warehouse/" class="nav-link"><i class="undefined"></i>
+  Data warehouse
+</a></li><li class="dropdown-item"><!----> <a href="/categories/DL/" class="nav-link"><i class="undefined"></i>
+  DL
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Distributed System/" class="nav-link"><i class="undefined"></i>
+  Distributed System
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Docker/" class="nav-link"><i class="undefined"></i>
+  Docker
+</a></li><li class="dropdown-item"><!----> <a href="/categories/ElasticSearch/" class="nav-link"><i class="undefined"></i>
+  ElasticSearch
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Flink/" class="nav-link"><i class="undefined"></i>
+  Flink
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Go/" class="nav-link"><i class="undefined"></i>
+  Go
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Git/" class="nav-link"><i class="undefined"></i>
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Haskell/" class="nav-link"><i class="undefined"></i>
+  Haskell
+</a></li><li class="dropdown-item"><!----> <a href="/categories/HuaweiCloud/" class="nav-link"><i class="undefined"></i>
+  HuaweiCloud
+</a></li><li class="dropdown-item"><!----> <a href="/categories/NLP/" class="nav-link"><i class="undefined"></i>
+  NLP
+</a></li><li class="dropdown-item"><!----> <a href="/categories/JS/" class="nav-link"><i class="undefined"></i>
+  JS
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Java/" class="nav-link"><i class="undefined"></i>
+  Java
+</a></li><li class="dropdown-item"><!----> <a href="/categories/JavaWeb/" class="nav-link"><i class="undefined"></i>
+  JavaWeb
+</a></li><li class="dropdown-item"><!----> <a href="/categories/JVM/" class="nav-link"><i class="undefined"></i>
+  JVM
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Jenkins/" class="nav-link"><i class="undefined"></i>
+  Jenkins
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Kafka/" class="nav-link"><i class="undefined"></i>
+  Kafka
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Kubernetes/" class="nav-link"><i class="undefined"></i>
+  Kubernetes
+</a></li><li class="dropdown-item"><!----> <a href="/categories/LLMs/" class="nav-link"><i class="undefined"></i>
+  LLMs
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Leetcode/" class="nav-link"><i class="undefined"></i>
+  Leetcode
+</a></li><li class="dropdown-item"><!----> <a href="/categories/MDSD/" class="nav-link"><i class="undefined"></i>
+  MDSD
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Linux/" class="nav-link"><i class="undefined"></i>
+  Linux
+</a></li><li class="dropdown-item"><!----> <a href="/categories/MongoDB/" class="nav-link"><i class="undefined"></i>
+  MongoDB
+</a></li><li class="dropdown-item"><!----> <a href="/categories/DB/" class="nav-link"><i class="undefined"></i>
+  DB
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Notes/" class="nav-link"><i class="undefined"></i>
+  Notes
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Nginx/" class="nav-link"><i class="undefined"></i>
+  Nginx
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Nodejs/" class="nav-link"><i class="undefined"></i>
+  Nodejs
+</a></li><li class="dropdown-item"><!----> <a href="/categories/OS/" class="nav-link"><i class="undefined"></i>
+  OS
+</a></li><li class="dropdown-item"><!----> <a href="/categories/OpenStack/" class="nav-link"><i class="undefined"></i>
+  OpenStack
+</a></li><li class="dropdown-item"><!----> <a href="/categories/PHP/" class="nav-link"><i class="undefined"></i>
+  PHP
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Prometheus/" class="nav-link"><i class="undefined"></i>
+  Prometheus
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Python/" class="nav-link"><i class="undefined"></i>
+  Python
+</a></li><li class="dropdown-item"><!----> <a href="/categories/RabbitMQ/" class="nav-link"><i class="undefined"></i>
+  RabbitMQ
+</a></li><li class="dropdown-item"><!----> <a href="/categories/React/" class="nav-link"><i class="undefined"></i>
+  React
+</a></li><li class="dropdown-item"><!----> <a href="/categories/RealTimeSE/" class="nav-link"><i class="undefined"></i>
+  RealTimeSE
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Redis/" class="nav-link"><i class="undefined"></i>
+  Redis
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Spring Cloud/" class="nav-link"><i class="undefined"></i>
+  Spring Cloud
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Service Computing/" class="nav-link"><i class="undefined"></i>
+  Service Computing
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Spring/" class="nav-link"><i class="undefined"></i>
+  Spring
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Springboot/" class="nav-link"><i class="undefined"></i>
+  Springboot
+</a></li><li class="dropdown-item"><!----> <a href="/categories/SpringMVC/" class="nav-link"><i class="undefined"></i>
+  SpringMVC
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Spring Security/" class="nav-link"><i class="undefined"></i>
+  Spring Security
+</a></li><li class="dropdown-item"><!----> <a href="/categories/SuperSet/" class="nav-link"><i class="undefined"></i>
+  SuperSet
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Tensorflow/" class="nav-link"><i class="undefined"></i>
+  Tensorflow
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Swagger/" class="nav-link"><i class="undefined"></i>
+  Swagger
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Vuepress/" class="nav-link"><i class="undefined"></i>
+  Vuepress
+</a></li><li class="dropdown-item"><!----> <a href="/categories/XML/" class="nav-link"><i class="undefined"></i>
+  XML
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Zookeeper/" class="nav-link"><i class="undefined"></i>
+  Zookeeper
+</a></li><li class="dropdown-item"><!----> <a href="/categories/K8s/" class="nav-link"><i class="undefined"></i>
+  K8s
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Markdown/" class="nav-link"><i class="undefined"></i>
+  Markdown
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Mybatis/" class="nav-link"><i class="undefined"></i>
+  Mybatis
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Solr/" class="nav-link"><i class="undefined"></i>
+  Solr
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      Contact
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/0YHR0" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-5bb33761></div> <aside class="sidebar" data-v-5bb33761><div class="personal-info-wrapper" data-v-1fad0c41 data-v-5bb33761><img src="/head.jpg" alt="author-avatar" class="personal-img" data-v-1fad0c41> <h3 class="name" data-v-1fad0c41>
+    Yang Haoran
+  </h3> <div class="num" data-v-1fad0c41><div data-v-1fad0c41><h3 data-v-1fad0c41>389</h3> <h6 data-v-1fad0c41>Articles</h6></div> <div data-v-1fad0c41><h3 data-v-1fad0c41>111</h3> <h6 data-v-1fad0c41>Tags</h6></div></div> <ul class="social-links" data-v-1fad0c41></ul> <hr data-v-1fad0c41></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      Category
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/AIGC/" class="nav-link"><i class="undefined"></i>
+  AIGC
+</a></li><li class="dropdown-item"><!----> <a href="/categories/AIDistributedTraining/" class="nav-link"><i class="undefined"></i>
+  AIDistributedTraining
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Distributed Lock/" class="nav-link"><i class="undefined"></i>
+  Distributed Lock
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Distributed Transaction/" class="nav-link"><i class="undefined"></i>
+  Distributed Transaction
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Algorithm/" class="nav-link"><i class="undefined"></i>
+  Algorithm
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Android/" class="nav-link"><i class="undefined"></i>
+  Android
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Architecture/" class="nav-link"><i class="undefined"></i>
+  Architecture
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Cloud/" class="nav-link"><i class="undefined"></i>
+  Cloud
+</a></li><li class="dropdown-item"><!----> <a href="/categories/DevOps/" class="nav-link"><i class="undefined"></i>
+  DevOps
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Computer_network/" class="nav-link"><i class="undefined"></i>
+  Computer_network
+</a></li><li class="dropdown-item"><!----> <a href="/categories/VHDL/" class="nav-link"><i class="undefined"></i>
+  VHDL
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Data structure/" class="nav-link"><i class="undefined"></i>
+  Data structure
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Data warehouse/" class="nav-link"><i class="undefined"></i>
+  Data warehouse
+</a></li><li class="dropdown-item"><!----> <a href="/categories/DL/" class="nav-link"><i class="undefined"></i>
+  DL
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Distributed System/" class="nav-link"><i class="undefined"></i>
+  Distributed System
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Docker/" class="nav-link"><i class="undefined"></i>
+  Docker
+</a></li><li class="dropdown-item"><!----> <a href="/categories/ElasticSearch/" class="nav-link"><i class="undefined"></i>
+  ElasticSearch
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Flink/" class="nav-link"><i class="undefined"></i>
+  Flink
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Go/" class="nav-link"><i class="undefined"></i>
+  Go
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Git/" class="nav-link"><i class="undefined"></i>
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Haskell/" class="nav-link"><i class="undefined"></i>
+  Haskell
+</a></li><li class="dropdown-item"><!----> <a href="/categories/HuaweiCloud/" class="nav-link"><i class="undefined"></i>
+  HuaweiCloud
+</a></li><li class="dropdown-item"><!----> <a href="/categories/NLP/" class="nav-link"><i class="undefined"></i>
+  NLP
+</a></li><li class="dropdown-item"><!----> <a href="/categories/JS/" class="nav-link"><i class="undefined"></i>
+  JS
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Java/" class="nav-link"><i class="undefined"></i>
+  Java
+</a></li><li class="dropdown-item"><!----> <a href="/categories/JavaWeb/" class="nav-link"><i class="undefined"></i>
+  JavaWeb
+</a></li><li class="dropdown-item"><!----> <a href="/categories/JVM/" class="nav-link"><i class="undefined"></i>
+  JVM
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Jenkins/" class="nav-link"><i class="undefined"></i>
+  Jenkins
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Kafka/" class="nav-link"><i class="undefined"></i>
+  Kafka
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Kubernetes/" class="nav-link"><i class="undefined"></i>
+  Kubernetes
+</a></li><li class="dropdown-item"><!----> <a href="/categories/LLMs/" class="nav-link"><i class="undefined"></i>
+  LLMs
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Leetcode/" class="nav-link"><i class="undefined"></i>
+  Leetcode
+</a></li><li class="dropdown-item"><!----> <a href="/categories/MDSD/" class="nav-link"><i class="undefined"></i>
+  MDSD
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Linux/" class="nav-link"><i class="undefined"></i>
+  Linux
+</a></li><li class="dropdown-item"><!----> <a href="/categories/MongoDB/" class="nav-link"><i class="undefined"></i>
+  MongoDB
+</a></li><li class="dropdown-item"><!----> <a href="/categories/DB/" class="nav-link"><i class="undefined"></i>
+  DB
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Notes/" class="nav-link"><i class="undefined"></i>
+  Notes
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Nginx/" class="nav-link"><i class="undefined"></i>
+  Nginx
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Nodejs/" class="nav-link"><i class="undefined"></i>
+  Nodejs
+</a></li><li class="dropdown-item"><!----> <a href="/categories/OS/" class="nav-link"><i class="undefined"></i>
+  OS
+</a></li><li class="dropdown-item"><!----> <a href="/categories/OpenStack/" class="nav-link"><i class="undefined"></i>
+  OpenStack
+</a></li><li class="dropdown-item"><!----> <a href="/categories/PHP/" class="nav-link"><i class="undefined"></i>
+  PHP
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Prometheus/" class="nav-link"><i class="undefined"></i>
+  Prometheus
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Python/" class="nav-link"><i class="undefined"></i>
+  Python
+</a></li><li class="dropdown-item"><!----> <a href="/categories/RabbitMQ/" class="nav-link"><i class="undefined"></i>
+  RabbitMQ
+</a></li><li class="dropdown-item"><!----> <a href="/categories/React/" class="nav-link"><i class="undefined"></i>
+  React
+</a></li><li class="dropdown-item"><!----> <a href="/categories/RealTimeSE/" class="nav-link"><i class="undefined"></i>
+  RealTimeSE
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Redis/" class="nav-link"><i class="undefined"></i>
+  Redis
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Spring Cloud/" class="nav-link"><i class="undefined"></i>
+  Spring Cloud
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Service Computing/" class="nav-link"><i class="undefined"></i>
+  Service Computing
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Spring/" class="nav-link"><i class="undefined"></i>
+  Spring
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Springboot/" class="nav-link"><i class="undefined"></i>
+  Springboot
+</a></li><li class="dropdown-item"><!----> <a href="/categories/SpringMVC/" class="nav-link"><i class="undefined"></i>
+  SpringMVC
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Spring Security/" class="nav-link"><i class="undefined"></i>
+  Spring Security
+</a></li><li class="dropdown-item"><!----> <a href="/categories/SuperSet/" class="nav-link"><i class="undefined"></i>
+  SuperSet
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Tensorflow/" class="nav-link"><i class="undefined"></i>
+  Tensorflow
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Swagger/" class="nav-link"><i class="undefined"></i>
+  Swagger
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Vuepress/" class="nav-link"><i class="undefined"></i>
+  Vuepress
+</a></li><li class="dropdown-item"><!----> <a href="/categories/XML/" class="nav-link"><i class="undefined"></i>
+  XML
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Zookeeper/" class="nav-link"><i class="undefined"></i>
+  Zookeeper
+</a></li><li class="dropdown-item"><!----> <a href="/categories/K8s/" class="nav-link"><i class="undefined"></i>
+  K8s
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Markdown/" class="nav-link"><i class="undefined"></i>
+  Markdown
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Mybatis/" class="nav-link"><i class="undefined"></i>
+  Mybatis
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Solr/" class="nav-link"><i class="undefined"></i>
+  Solr
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      Contact
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/0YHR0" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav> <!----> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-59e6cb88 data-v-5bb33761><h3 class="title" data-v-59e6cb88>Ch09 Open Source Components</h3> <!----> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>Yang Haoran</span>
+          
+        <span data-v-59e6cb88>2019 - </span>
+        2024
+      </a></span></div></div> <div data-v-5bb33761><div data-v-5bb33761><main class="page" style="padding-right:0;"><section style="display:;"><div class="page-title"><h1 class="title">Ch09 Open Source Components</h1> <div data-v-8a445198><i class="iconfont reco-account" data-v-8a445198><span data-v-8a445198>Yang Haoran</span></i> <i class="iconfont reco-date" data-v-8a445198><span data-v-8a445198>10/12/2024</span></i> <!----> <i class="tags iconfont reco-tag" data-v-8a445198><span class="tag-item" data-v-8a445198>HuaweiCloud</span></i></div></div> <div class="theme-reco-content content__default"><h1 id="开源组件"><a href="#开源组件" class="header-anchor">#</a> 开源组件</h1> <h1 id="knative"><a href="#knative" class="header-anchor">#</a> Knative</h1> <img src="https://markdown-1301334775.cos.eu-frankfurt.myqcloud.com/image-20241013144442775.png" alt="image-20241013144442775" style="zoom:50%;"> <img src="https://markdown-1301334775.cos.eu-frankfurt.myqcloud.com/Knative-%E8%B1%86%E5%8C%85%20(1).png" alt="Knative-豆包 (1)" style="zoom:33%;"> <img src="https://markdown-1301334775.cos.eu-frankfurt.myqcloud.com/Knative-%E8%B1%86%E5%8C%85%20(2).png" alt="Knative-豆包 (2)" style="zoom:33%;"> <img src="https://markdown-1301334775.cos.eu-frankfurt.myqcloud.com/Knative-%E8%B1%86%E5%8C%85%20(3).png" alt="Knative-豆包 (3)" style="zoom:33%;"> <h1 id="kubeflow"><a href="#kubeflow" class="header-anchor">#</a> Kubeflow</h1> <img src="https://markdown-1301334775.cos.eu-frankfurt.myqcloud.com/Knative-%E8%B1%86%E5%8C%85%20(4).png" alt="Knative-豆包 (4)" style="zoom:33%;"> <h1 id="kserve-kfserve"><a href="#kserve-kfserve" class="header-anchor">#</a> Kserve（KFServe）</h1> <img src="https://markdown-1301334775.cos.eu-frankfurt.myqcloud.com/Knative-%E8%B1%86%E5%8C%85%20(5).png" alt="Knative-豆包 (5)" style="zoom:33%;"> <h1 id="karmada"><a href="#karmada" class="header-anchor">#</a> Karmada</h1> <img src="https://markdown-1301334775.cos.eu-frankfurt.myqcloud.com/Knative-%E8%B1%86%E5%8C%85%20(6).png" alt="Knative-豆包 (6)" style="zoom:33%;"> <h1 id="volcano"><a href="#volcano" class="header-anchor">#</a> Volcano</h1> <img src="https://markdown-1301334775.cos.eu-frankfurt.myqcloud.com/Knative-%E8%B1%86%E5%8C%85%20(7).png" alt="Knative-豆包 (7)" style="zoom:33%;"> <h1 id="kuberay"><a href="#kuberay" class="header-anchor">#</a> Kuberay</h1> <img src="https://markdown-1301334775.cos.eu-frankfurt.myqcloud.com/Knative-%E8%B1%86%E5%8C%85%20(10).png" alt="Knative-豆包 (10)" style="zoom:33%;"> <p><img src="https://markdown-1301334775.cos.eu-frankfurt.myqcloud.com/image-20241013152009655.png" alt="image-20241013152009655"></p> <img src="https://markdown-1301334775.cos.eu-frankfurt.myqcloud.com/Knative-%E8%B1%86%E5%8C%85%20(8).png" alt="Knative-豆包 (8)" style="zoom:33%;"> <h1 id="volcano-和-kuberay的区别"><a href="#volcano-和-kuberay的区别" class="header-anchor">#</a> Volcano 和 kuberay的区别</h1> <img src="https://markdown-1301334775.cos.eu-frankfurt.myqcloud.com/Knative-%E8%B1%86%E5%8C%85%20(9).png" alt="Knative-豆包 (9)" style="zoom:33%;"></div></section> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">10/13/2024, 7:32:47 AM</span></div></footer> <!----> <div class="comments-wrapper"><!----></div> <ul class="side-bar sub-sidebar-wrapper" style="width:0;" data-v-ac050c62></ul></main></div> <!----></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div><div></div></div></div>
+    <script src="/assets/js/app.69afa0c6.js" defer></script><script src="/assets/js/3.5fe2d7cb.js" defer></script><script src="/assets/js/1.571bc783.js" defer></script><script src="/assets/js/137.d1e22229.js" defer></script>
+  </body>
+</html>
